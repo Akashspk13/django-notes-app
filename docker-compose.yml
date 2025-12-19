@@ -11,7 +11,7 @@ services:
     networks:
       - notes-app-nw
 
-  django_app:
+  notes-app-cont:
     build:
       context: .
     image: notes-app
