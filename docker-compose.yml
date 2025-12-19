@@ -4,7 +4,7 @@ services:
     image: nginx
     container_name: "nginx_cont"
     ports:
-      - "9090:80"
+      - "8081:80"
     restart: always
     depends_on:
       - notes-app-cont
