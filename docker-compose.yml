@@ -7,7 +7,7 @@ services:
       - "9090:80"
     restart: always
     depends_on:
-      - notes-app
+      - notes-app-cont
     networks:
       - notes-app-nw
 
